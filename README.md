@@ -17,5 +17,6 @@ LLM에게 현재 작업 상태와 문제점을 효과적으로 설명할 수 있
 
 <img width="1516" height="942" alt="image" src="https://github.com/user-attachments/assets/7163de39-57cf-470f-8272-0771fd344540" />
  
-# 개선(2025/9)
-기존 사전 프롬프팅 방법은 이제 R
+# 개선(2025/5)
+
+Faiss기반 RAG기법
