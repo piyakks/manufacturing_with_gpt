@@ -20,3 +20,4 @@ LLM에게 현재 작업 상태와 문제점을 효과적으로 설명할 수 있
 # 개선(2025/5)
 
 Faiss기반 RAG기법
+https://github.com/piyakks/manufacturing_with_gpt_rag
