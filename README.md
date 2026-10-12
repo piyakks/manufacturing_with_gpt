@@ -12,13 +12,21 @@
 
 LLM에게 현재 작업 상태와 문제점을 효과적으로 설명할 수 있는 시스템 
 
+# 기존 사전 프롬프팅 기법의 한계점
+1.프롬프트 길어짐
 
+2.성능 불안정
+
+3.API 이용의 경우 비용 증가
+
+# 개선안
+
+1.CLIP을 통한 이미지 및 텍스트 사전 임베팅으로 DB생성(작업 메뉴얼, 각 단계 별 이미지 및 설명)  
+
+2.FAISS를 이용한 Retrival 검색 (현재 단계 + 다음 단계 총 2개 추출)
+
+3.검색된 결과(이미지 + 설명)를 기반으로 필요한 정보만 선택적으로 프롬프트에 포함
 # 실험과정
 사용자가 가상환경상황에서 소마큐브를 조립하고 있는 상황에서 다음 과정으로 넘어가는데 문제가 있을 경우 컨트롤러를 이용해 조립도에 대해 정보를 부여받은 LLM에게 도움을 받을 수 있음
 
-<!-- <img width="1516" height="942" alt="image" src="https://github.com/user-attachments/assets/7163de39-57cf-470f-8272-0771fd344540" /> -->
 <img width="1516" height="942" alt="Rag버전" src="https://github.com/user-attachments/assets/6ff91ebf-24a8-49f0-8c0b-3d2300cafa86" />
-# 개선(2025/5)
-
-Faiss기반 RAG기법
-https://github.com/piyakks/manufacturing_with_gpt_rag
