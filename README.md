@@ -1,3 +1,4 @@
+
 ## 가상현실 환경에서 키워드 및 이미지 기반 LLM을 활용한 작업 지원
 
 # 연구 목표
@@ -15,8 +16,8 @@ LLM에게 현재 작업 상태와 문제점을 효과적으로 설명할 수 있
 # 실험과정
 사용자가 가상환경상황에서 소마큐브를 조립하고 있는 상황에서 다음 과정으로 넘어가는데 문제가 있을 경우 컨트롤러를 이용해 조립도에 대해 정보를 부여받은 LLM에게 도움을 받을 수 있음
 
-<img width="1516" height="942" alt="image" src="https://github.com/user-attachments/assets/7163de39-57cf-470f-8272-0771fd344540" />
- 
+<!-- <img width="1516" height="942" alt="image" src="https://github.com/user-attachments/assets/7163de39-57cf-470f-8272-0771fd344540" /> -->
+<img width="1516" height="942" alt="Rag버전" src="https://github.com/user-attachments/assets/6ff91ebf-24a8-49f0-8c0b-3d2300cafa86" />
 # 개선(2025/5)
 
 Faiss기반 RAG기법
